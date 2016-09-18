@@ -32,6 +32,9 @@ dependencies {
     compile 'com.squareup.retrofit2:retrofit:2.0.2'
     compile 'com.squareup.retrofit2:converter-gson:2.0.2'
     compile 'com.squareup.retrofit2:adapter-rxjava:2.0.2'
+    compile 'com.google.auto.value:auto-value:1.2'
+//    apt 'com.google.auto.value:auto-value:1.2'
+
 
     /**
      * 解决Android Studio加载第三方jar包，出现包重复加载的问题
